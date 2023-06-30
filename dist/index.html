@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="/index.7abba0a1.css">
+
+    <!--  /* Full-Page  CDN*/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
   </head>
-  <body><script src="/promotion_2.3464ddca.js"></script></body>
+  <body>
+    <ul id="menu">
+      <li data-menuanchor="firstPage">
+        <a href="#firstPage">Intro</a>
+      </li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">Profile</a></li>
+      <li data-menuanchor="3rdPage"><a href="#3rdPage">Web</a></li>
+      <li data-menuanchor="4rdPage"><a href="#4rdPage">Skill</a></li>
+      <li data-menuanchor="5rdPage"><a href="#5rdPage">Contact</a></li>
+    </ul>
+
+    <div id="fullpage">
+      <div class="section">1</div>
+      <div class="section">2</div>
+      <div class="section">3</div>
+      <div class="section">4</div>
+      <div class="section">5</div>
+    </div>
+
+    <script>new fullpage("#fullpage", {
+    autoScrolling: true,
+    scrollHorizontally: true,
+    anchors: [
+        "firstPage",
+        "secondPage",
+        "3rdPage",
+        "4rdPage",
+        "5rdPage"
+    ],
+    menu: "#menu"
+});
+
+</script>
+  <script src="/promotion_2.3464ddca.js"></script></body>
 </html>

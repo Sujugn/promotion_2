@@ -15,5 +15,8 @@
     "@parcel/transformer-sass": "^2.9.3",
     "bundler": "^0.8.0",
     "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "fullpage.js": "^4.0.20"
   }
 }

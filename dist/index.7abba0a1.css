@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #0000;
+  border: none;
+}
+
+#fullpage .section {
+  font-size: 50px;
+}
 
 /*# sourceMappingURL=index.7abba0a1.css.map */
